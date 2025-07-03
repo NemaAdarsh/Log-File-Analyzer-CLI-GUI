@@ -1,0 +1,25 @@
+2024-01-10 13:55:36.123 [INFO]: Application startup initiated
+2024-01-10 13:55:36.145 [INFO]: Loading configuration from config.yaml
+2024-01-10 13:55:36.167 [INFO]: Database connection pool initialized
+2024-01-10 13:55:36.189 [INFO]: Cache service started successfully
+2024-01-10 13:55:36.201 [INFO]: Web server listening on port 8080
+2024-01-10 13:55:36.223 [INFO]: Application startup completed
+2024-01-10 13:55:40.456 [INFO]: User authentication request from 192.168.1.100
+2024-01-10 13:55:40.478 [INFO]: User login successful: user@example.com
+2024-01-10 13:55:42.567 [WARNING]: High memory usage detected: 85%
+2024-01-10 13:55:43.678 [INFO]: API request: GET /api/users
+2024-01-10 13:55:44.789 [ERROR]: Database connection timeout after 30 seconds
+2024-01-10 13:55:44.890 [WARNING]: Retrying database connection (attempt 1/3)
+2024-01-10 13:55:45.123 [INFO]: Database connection restored
+2024-01-10 13:55:46.234 [INFO]: Processing file upload: document.pdf (2.5MB)
+2024-01-10 13:55:47.345 [ERROR]: File validation failed: unsupported format
+2024-01-10 13:55:48.456 [WARNING]: Rate limit exceeded for IP 192.168.1.103
+2024-01-10 13:55:49.567 [INFO]: Scheduled backup task started
+2024-01-10 13:55:50.678 [ERROR]: Backup failed: insufficient disk space
+2024-01-10 13:55:51.789 [WARNING]: Disk space below 10% threshold
+2024-01-10 13:55:52.890 [INFO]: Cache cleanup completed: 150MB freed
+2024-01-10 13:55:53.123 [INFO]: Session cleanup completed: 25 expired sessions removed
+2024-01-10 13:55:54.234 [ERROR]: External API timeout: payment.service.com
+2024-01-10 13:55:55.345 [WARNING]: Fallback payment processor activated
+2024-01-10 13:55:56.456 [INFO]: Payment processed successfully via fallback
+2024-01-10 13:55:57.567 [DEBUG]: Performance metrics: avg response time 245ms

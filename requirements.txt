@@ -1,0 +1,37 @@
+# Log File Analyzer Requirements
+# This project uses only Python standard library modules
+# Python 3.6+ required
+
+# Core dependencies (part of Python standard library)
+# - re (regular expressions)
+# - argparse (command line parsing)
+# - datetime (date and time handling)
+# - os (operating system interface)
+# - sys (system-specific parameters)
+# - json (JSON encoder/decoder)
+# - collections (specialized container datatypes)
+# - typing (type hints support)
+# - tkinter (GUI framework - usually included with Python)
+# - csv (CSV file reading and writing)
+
+# Optional dependencies for enhanced functionality
+# These are not required but can improve performance or add features
+
+# For better date parsing (optional)
+# python-dateutil>=2.8.0
+
+# For progress bars in CLI (optional)
+# tqdm>=4.60.0
+
+# For colored terminal output (optional)
+# colorama>=0.4.0
+
+# For advanced regex features (optional)
+# regex>=2021.0.0
+
+# Development dependencies (for contributors)
+# pytest>=6.0.0
+# pytest-cov>=2.12.0
+# black>=21.0.0
+# flake8>=3.9.0
+# mypy>=0.900

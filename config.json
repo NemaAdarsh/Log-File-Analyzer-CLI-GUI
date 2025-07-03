@@ -1,0 +1,49 @@
+{
+  "log_formats": {
+    "custom_app": {
+      "pattern": "(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}[,.]?\\d*) \\[?(?P<level>\\w+)\\]?\\s*:?\\s*(?P<message>.*)",
+      "timestamp_format": "%Y-%m-%d %H:%M:%S"
+    },
+    "json_log": {
+      "pattern": ".*",
+      "parser_type": "json"
+    }
+  },
+  "filter_presets": {
+    "errors_only": {
+      "levels": ["ERROR", "FATAL"],
+      "description": "Show only error and fatal messages"
+    },
+    "warnings_and_errors": {
+      "levels": ["WARNING", "ERROR", "FATAL"],
+      "description": "Show warnings and errors"
+    },
+    "database_issues": {
+      "keywords": ["database", "connection", "timeout", "sql"],
+      "description": "Database-related issues"
+    },
+    "performance_issues": {
+      "keywords": ["slow", "timeout", "performance", "memory", "cpu"],
+      "description": "Performance-related issues"
+    }
+  },
+  "export_settings": {
+    "default_format": "json",
+    "include_statistics": true,
+    "max_entries_per_file": 10000,
+    "timestamp_format": "iso"
+  },
+  "gui_settings": {
+    "window_size": "1200x800",
+    "theme": "default",
+    "font_family": "Consolas",
+    "font_size": 10,
+    "max_display_entries": 1000
+  },
+  "performance": {
+    "chunk_size": 1000,
+    "max_memory_mb": 512,
+    "enable_caching": true,
+    "cache_size": 100
+  }
+}

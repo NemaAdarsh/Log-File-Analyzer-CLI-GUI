@@ -1,0 +1,20 @@
+Jan 10 13:55:36 server01 systemd[1]: Starting web application service
+Jan 10 13:55:36 server01 systemd[1]: Started web application service
+Jan 10 13:55:37 server01 apache2[1234]: Configuration loaded successfully
+Jan 10 13:55:37 server01 apache2[1234]: Server started on port 80
+Jan 10 13:55:38 server01 mysql[5678]: Database server started
+Jan 10 13:55:38 server01 mysql[5678]: InnoDB: Buffer pool initialized
+Jan 10 13:55:39 server01 nginx[9012]: Configuration test successful
+Jan 10 13:55:39 server01 nginx[9012]: Starting reverse proxy on port 443
+Jan 10 13:55:40 server01 kernel: oom-killer: Out of memory: Kill process 1234
+Jan 10 13:55:40 server01 systemd[1]: apache2.service: Main process exited
+Jan 10 13:55:41 server01 systemd[1]: apache2.service: Failed with result signal
+Jan 10 13:55:41 server01 systemd[1]: Stopping apache2.service
+Jan 10 13:55:42 server01 systemd[1]: Starting apache2.service
+Jan 10 13:55:42 server01 apache2[3456]: Server restarted successfully
+Jan 10 13:55:43 server01 postfix[7890]: SMTP service started
+Jan 10 13:55:43 server01 postfix[7890]: Listening on port 25
+Jan 10 13:55:44 server01 fail2ban[2345]: SSH brute force detected from 192.168.1.200
+Jan 10 13:55:44 server01 fail2ban[2345]: Banned IP 192.168.1.200 for 600 seconds
+Jan 10 13:55:45 server01 cron[6789]: Job completed: daily backup
+Jan 10 13:55:45 server01 logrotate[4567]: Log rotation completed successfully
