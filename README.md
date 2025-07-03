@@ -22,7 +22,7 @@ A comprehensive Python application for analyzing log files from web servers and 
 
 1. Clone or download the project:
 ```bash
-git clone <repository-url>
+git clone https://github.com/NemaAdarsh/Log-File-Analyzer-CLI-GUI.git
 cd log-file-analyzer
 ```
 
@@ -228,3 +228,6 @@ The application includes comprehensive error handling for:
 3. Add tests for new functionality
 4. Ensure all tests pass
 5. Submit a pull request with detailed description
+
+![WhatsApp Image 2025-07-03 at 10 34 25_a619952e](https://github.com/user-attachments/assets/2e2ea00c-cdc2-46fa-b435-e257f419da51)
+![WhatsApp Image 2025-07-03 at 10 34 49_3d4c02bd](https://github.com/user-attachments/assets/1e23efae-c3f4-48f4-8654-22775338a0ca)
